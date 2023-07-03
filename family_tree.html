@@ -14,10 +14,19 @@
       .mermaid {
         font-family: "Arial", sans-serif; /* Specify a font that supports Chinese characters */
       }
+      .body {
+        width: 100%
+      }
     </style>
 </head>
 <body>
-  <div class="container align-items-center">
+
+    <div class="container align-items-center text-center">
+        <h1>兰桂腾方家族图谱</h1>
+        <h6>2021年3月</h6>
+        <hr>
+    </div>
+    <div class="container align-items-center">
       <div class="mermaid">
         flowchart TD
           classDef verticalTextClass text-orientation: upright, writing-mode: vertical-lr, height: 80px;
@@ -27,37 +36,87 @@
             LGT_life[农 1911-11-4 <br> 1995-12-30 卒] -.- gen_1[<h1>罗桂腾 区艳春</h1>] -.- OYC_life[农 1911-11-4 <br> 1995-12-30 卒];
           end
           subgraph gen_2[" "]
+            subgraph LZNHAL[" "]
+                direction TB
+                LZN[<h2>罗<br>植<br>楠</h2>] -.- LZN_life[农 <br><p></p>]:::deg90
+                HAL[<h2>黄<br>蔼<br>龄</h2>] -.- HAL_life[农 <br>]:::deg90
+            end
             subgraph LJYGBB[" "]
-            direction TB
-            LJY[<h2>罗<br>建<br>猷</h2>] -.- LJY_life[农 1942-06-26<br><p></p>]:::deg90
-            GBB[<h2>古<br>斌<br>斌</h2>] -.- GBB_life[农 1942-11-05<br>1995-07-27 卒]:::deg90
+                direction TB
+                LJY[<h2>罗<br>建<br>猷</h2>] -.- LJY_life[农 1942-06-26<br><p></p>]:::deg90
+                GBB[<h2>古<br>斌<br>斌</h2>] -.- GBB_life[农 1942-11-05<br>1995-07-27 卒]:::deg90
+            end
+            subgraph CGXLLH[" "]
+                direction TB
+                CGX[<h2>蔡<br>广<br>兴</h2>] -.- CGX_life[农 1942-12-23<br><p></p>]:::deg90
+                LLH[<h2>罗<br>丽<br>红</h2>] -.- LLH_life[农 1944-11-16<br><p></p>]:::deg90
+            end
+            subgraph LXQLYH[" "]
+                direction TB
+                LXQ[<h2>林<br><br>琼</h2>] -.- LXQ_life[农 1937-03-20<br><p></p>]:::deg90
+                LYH[<h2>罗<br>艳<br>红</h2>] -.- LYH_life[农 1946-11-15<br><p></p>]:::deg90
+            end
+            subgraph LDQZXX[" "]
+                direction TB
+                LDQ[<h2>罗<br>道<br>群</h2>] -.- LDQ_life[农 1949-03-03<br><p></p>]:::deg90
+                ZXX[<h2>钟<br><br></h2>] -.- ZXX_life[农 1953-10-15<br><p></p>]:::deg90
+            end
+            subgraph LZYZZX[" "]
+                direction TB
+                LZY[<h2>罗<br>宗<br>耀</h2>] -.- LZY_life[农 1951-09-04<br><p></p>]:::deg90
+                ZZX[<h2>邹<br>子<br>香</h2>] -.- ZZX_life[农 1951-05-02<br><p></p>]:::deg90
+            end
+            subgraph LZYGJY[" "]
+                direction TB
+                LZY1[<h2>罗<br>宗<br>衍</h2>] -.- LZY1_life[农 1958-03-03<br><p></p>]:::deg90
+                GJY[<h2>关<br>洁<br>英</h2>] -.- GJY_life[农 1958-03-31<br><p></p>]:::deg90
             end
           end
           subgraph gen_3[" "]
-              subgraph CRMLWL[" "]
+              subgraph LDLYH[" "]
+                direction TB
+                LD[<h3>罗<br>丹</h3>] -.- LD_life[1965-11-04<br><p></p>]:::deg90
+                LYH1[<h3>李<br>英<br>华</h3>] -.- LYH1_life[1971-12-19<br><p></p>]:::deg90
+              end
+             subgraph LQXHL[" "]
+                direction TB
+                LQ[<h3>罗<br>青</h3>] -.- LQ_life[生<br><p></p>]:::deg90
+                XHL[<h3>徐<br>华<br>林</h3>] -.- XHL_life[生<br><p></p>]:::deg90
+             end
+            subgraph CRMLWL[" "]
                 direction TB
                 CRM[<h3>陈<br>汝<br>明</h3>] -.- CRM_life[1965-11-04<br><p></p>]:::deg90
                 LWL[<h3>罗<br>蔚<br>铃</h3>] -.- LWL_life[1971-12-19<br><p></p>]:::deg90
-              end
-              subgraph XZYLJE[" "]
+            end
+            subgraph XZYLJE[" "]
                 direction TB
                 XZY[<h3>许<br>哲<br>源</h3>] -.- XZY_life[Geoffery<br>1960-05<br><p></p>]:::deg90
                 LJE[<h3>罗<br>嘉<br>恩</h3>] -.- LJE_life[Janette<br>1981-02<br><p></p>]:::deg90
-              end
-              subgraph LTLTati[" "]
+            end
+            subgraph LTLTati[" "]
                 direction TB
                 LTL[<h3>罗<br>天<br>乐</h3>] -.- LTL_life[Taylor<br>1960-05<br><p></p>]:::deg90
                 Tati[<h3>T<br>a<br>t<br>i</h3>] -.- Tati_life[1981-02<br><p></p>]:::deg90
-              end
-              subgraph LHJLTN[" "]
+            end
+            subgraph LHJLTN[" "]
                 direction TB
-                LHJ[<h3>李<br>鸿<br>基</h3>] -.- LHJ_life[Brian<br>1986-03<br><p></p>]:::deg90
+                HJ[<h3>李<br>鸿<br>基</h3>] -.- LHJ_life[Brian<br>1986-03<br><p></p>]:::deg90
                 LTN[<h3>罗<br>天<br>宁</h3>] -.- LTN_life[Lian<br>1991-12<br><p></p>]:::deg90
-              end
-              subgraph LtL[" "]
+            end
+            subgraph LtL_fam[" "]
                 direction TB
                 LtL1[<h3>罗<br>天<br>伦</h3>] -.- LtL1_life[Alan<br>1993-01<br><p></p>]:::deg90
-              end
+            end
+            subgraph CZZZM[" "]
+                direction TB
+                CZ[<h3>蔡<br>昭</h3>] -.- CZ_life[Alan<br>1993-01<br><p></p>]:::deg90
+                ZZM[<h3>张<br>卓<br>民</h3>] -.- ZZM_life[Lian<br>1991-12<br><p></p>]:::deg90
+            end
+            subgraph CZHCY[" "]
+                direction TB
+                Cz1[<h3>蔡<br>卓</h3>] -.- Cz1_life[<br>1993-01<br><p></p>]:::deg90
+                HCY[<h3>黄<br>楚<br>英</h3>] -.- HCY_life[<br>1991-12<br><p></p>]:::deg90
+            end
           end
           subgraph gen_4[" "]
               subgraph CYJHJQ[" "]
@@ -86,10 +145,29 @@
 
 
           LGTOYC --- LJYGBB
+          LGTOYC --- LZNHAL
+          LGTOYC --- CGXLLH
+          LGTOYC --- LXQLYH
+          LGTOYC --- LDQZXX
+          LGTOYC --- LZYZZX
+
+          LZNHAL ---LDLYH
+          LZNHAL ---LQXHL
+
           LJYGBB --- CRMLWL
           LJYGBB --- XZYLJE
+
+          CGXLLH --- CZZZM
+          CGXLLH --- CZHCY
+
+          LDQZXX --- LTLTati
+          LDQZXX --- LHJLTN
+          LDQZXX --- LtL_fam
+
+
           CRMLWL --- CYJHJQ
           CRMLWL --- CYJ_fam
+
           XZYLJE --- XJH_fam
           XZYLJE --- XJC_fam
           XZYLJE --- XJX_fam
