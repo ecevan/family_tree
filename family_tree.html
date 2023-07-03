@@ -14,19 +14,22 @@
       .mermaid {
         font-family: "Arial", sans-serif; /* Specify a font that supports Chinese characters */
       }
-      .body {
-        width: 100%
-      }
+        .body {
+          height: 100vh;
+        }
     </style>
 </head>
+    <div class="container w-100">
 <body>
 
     <div class="container align-items-center text-center">
-        <h1>兰桂腾方家族图谱</h1>
-        <h6>2021年3月</h6>
+        <h3>兰桂腾方家族图谱</h3>
+        <p>2021年3月</p>
         <hr>
     </div>
-    <div class="container align-items-center">
+    <div class="row">
+        <div class="col-11">
+            <div class="container align-items-center">
       <div class="mermaid">
         flowchart TD
           classDef verticalTextClass text-orientation: upright, writing-mode: vertical-lr, height: 80px;
@@ -51,9 +54,9 @@
                 CGX[<h2>蔡<br>广<br>兴</h2>] -.- CGX_life[农 1942-12-23<br><p></p>]:::deg90
                 LLH[<h2>罗<br>丽<br>红</h2>] -.- LLH_life[农 1944-11-16<br><p></p>]:::deg90
             end
-            subgraph LXQLYH[" "]
+            subgraph LBQLYH[" "]
                 direction TB
-                LXQ[<h2>林<br><br>琼</h2>] -.- LXQ_life[农 1937-03-20<br><p></p>]:::deg90
+                LBQ[<h2>林<br>保<br>琼</h2>] -.- LBQ_life[农 1937-03-20<br><p></p>]:::deg90
                 LYH[<h2>罗<br>艳<br>红</h2>] -.- LYH_life[农 1946-11-15<br><p></p>]:::deg90
             end
             subgraph LDQZXX[" "]
@@ -93,6 +96,26 @@
                 XZY[<h3>许<br>哲<br>源</h3>] -.- XZY_life[Geoffery<br>1960-05<br><p></p>]:::deg90
                 LJE[<h3>罗<br>嘉<br>恩</h3>] -.- LJE_life[Janette<br>1981-02<br><p></p>]:::deg90
             end
+            subgraph CZZZM[" "]
+                direction TB
+                CZ[<h3>蔡<br>昭</h3>] -.- CZ_life[Alan<br>1993-01<br><p></p>]:::deg90
+                ZZM[<h3>张<br>卓<br>民</h3>] -.- ZZM_life[Lian<br>1991-12<br><p></p>]:::deg90
+            end
+            subgraph CZHCY[" "]
+                direction TB
+                Cz1[<h3>蔡<br>卓</h3>] -.- Cz1_life[<br>1993-01<br><p></p>]:::deg90
+                HCY[<h3>黄<br>楚<br>英</h3>] -.- HCY_life[<br>1991-12<br><p></p>]:::deg90
+            end
+            subgraph LQLJN[" "]
+                direction TB
+                LQ1[<h3>林<br>擎</h3>] -.- LQ1_life[<br>1975-03-03<br><p></p>]:::deg90
+                LJN[<h3>林<br>佳<br>妮</h3>] -.- LJN_life[生<br><br><p></p>]:::deg90
+            end
+            subgraph LJFMY[" "]
+                direction TB
+                LJ[<h3>林<br>晋</h3>] -.- LJ_life[<br>1980-03<br><p></p>]:::deg90
+                FMY[<h3>冯<br>敏<br>莹</h3>] -.- FMY_life[<br>1991-12<br><p></p>]:::deg90
+            end
             subgraph LTLTati[" "]
                 direction TB
                 LTL[<h3>罗<br>天<br>乐</h3>] -.- LTL_life[Taylor<br>1960-05<br><p></p>]:::deg90
@@ -107,18 +130,37 @@
                 direction TB
                 LtL1[<h3>罗<br>天<br>伦</h3>] -.- LtL1_life[Alan<br>1993-01<br><p></p>]:::deg90
             end
-            subgraph CZZZM[" "]
+            subgraph LKLZLZ[" "]
                 direction TB
-                CZ[<h3>蔡<br>昭</h3>] -.- CZ_life[Alan<br>1993-01<br><p></p>]:::deg90
-                ZZM[<h3>张<br>卓<br>民</h3>] -.- ZZM_life[Lian<br>1991-12<br><p></p>]:::deg90
+                LKL[<h3>罗<br>恺<br>亮</h3>] -.- LKL_life[Nikita<br>1979<br><p></p>]:::deg90
+                ZLZ[<h3>郑<br>立<br>志</h3>] -.- ZLZ_life[Lian<br>1980<br><p></p>]:::deg90
             end
-            subgraph CZHCY[" "]
+            subgraph LKX_fam[" "]
                 direction TB
-                Cz1[<h3>蔡<br>卓</h3>] -.- Cz1_life[<br>1993-01<br><p></p>]:::deg90
-                HCY[<h3>黄<br>楚<br>英</h3>] -.- HCY_life[<br>1991-12<br><p></p>]:::deg90
+                LKX[<h3>罗<br>恺<br>星</h3>] -.- LKX_life[Felix<br>1987<br><p></p>]:::deg90
+            end
+            subgraph LRS_fam[" "]
+                direction TB
+                LRS[<h3>罗<br>润<br>深</h3>] -.- LRS_life[生<br><br><p></p>]:::deg90
+            end
+            subgraph LRJ_fam[" "]
+                direction TB
+                LRJ[<h3>罗<br>润<br>佳</h3>] -.- LRJ_life[Kevin<br>1992<br><p></p>]:::deg90
             end
           end
           subgraph gen_4[" "]
+              subgraph LDX_fam[" "]
+                direction TB
+                LDX[<h4>罗<br>迪<br>新</h4>] -.- LDX_life[<br><br><p></p>]:::deg90
+              end
+              subgraph LDS_fam[" "]
+                direction TB
+                LDS[<h4>罗<br>迪<br>森</h4>] -.- LDS_life[<br><br><p></p>]:::deg90
+              end
+              subgraph LDR_fam[" "]
+                direction TB
+                LDR[<h4>罗<br>迪<br>瑞</h4>] -.- LDR_life[<br><br><p></p>]:::deg90
+              end
               subgraph CYJHJQ[" "]
                 direction TB
                 CYJ[<h4>陈<br>炎<br>佳</h4>] -.- CYJ_life[Evan<br>1994-01-17<br><p></p>]:::deg90
@@ -140,39 +182,100 @@
                 direction TB
                 XJX[<h4>许<br>景<br>翔</h4>] -.- XJX_life[Jon<br>2015<br><p></p>]:::deg90
               end
-
+              subgraph ZYL_fam[" "]
+                direction TB
+                ZYL[<h4>张<br>伊<br>林</h4>] -.- ZYL_life[Jovian<br>2000<br><p></p>]:::deg90
+              end
+              subgraph CHS_fam[" "]
+                direction TB
+                CHS[<h4>蔡<br>黄<br>裳</h4>] -.- CHS_life[Tristan<br>2011<br><p></p>]:::deg90
+              end
+              subgraph CaiYJ_fam[" "]
+                direction TB
+                CaiYJ[<h4>蔡<br>元<br>吉</h4>] -.- CaiYJ_life[Nolan<br>2018<br><p></p>]:::deg90
+              end
+              subgraph LyH_fam[" "]
+                direction TB
+                LyH[<h4>林<br>昀<br>昊</h4>] -.- LyH_life[Tristan<br>2011<br><p></p>]:::deg90
+              end
+              subgraph ZYH_fam[" "]
+                direction TB
+                ZYH[<h4>郑<br>业<br>宏</h4>] -.- ZYH_life[Eavan<br>2006<br><p></p>]:::deg90
+              end
+              subgraph ZXY_fam[" "]
+                direction TB
+                ZXY[<h4>郑<br>雪<br>莹</h4>] -.- ZXY_life[Sueie<br>2011<br><p></p>]:::deg90
+              end
+              subgraph LKR_fam[" "]
+                direction TB
+                LKR[<h4>罗<br>恺<br>瑞</h4>] -.- LKR_life[Andy<br>1987<br><p></p>]:::deg90
+              end
           end
 
 
-          LGTOYC --- LJYGBB
-          LGTOYC --- LZNHAL
-          LGTOYC --- CGXLLH
-          LGTOYC --- LXQLYH
-          LGTOYC --- LDQZXX
-          LGTOYC --- LZYZZX
+          LGTOYC --- LGTOYC_dot((" "))
+          style LGTOYC_dot fill:black,stroke:none,font-size: 0px
 
-          LZNHAL ---LDLYH
-          LZNHAL ---LQXHL
+          LGTOYC_dot ---- LJYGBB
+          LGTOYC_dot ---- LZNHAL
+          LGTOYC_dot ---- CGXLLH
+          LGTOYC_dot ---- LBQLYH
+          LGTOYC_dot ---- LDQZXX
+          LGTOYC_dot ---- LZYZZX
+          LGTOYC_dot ---- LZYGJY
 
-          LJYGBB --- CRMLWL
-          LJYGBB --- XZYLJE
+          LZNHAL ----- LDLYH
+          LZNHAL ----- LDLYH
+          LZNHAL ----- LQXHL
 
-          CGXLLH --- CZZZM
-          CGXLLH --- CZHCY
+          LJYGBB ----- CRMLWL
+          LJYGBB ----- XZYLJE
 
-          LDQZXX --- LTLTati
-          LDQZXX --- LHJLTN
-          LDQZXX --- LtL_fam
+          CGXLLH ----- CZZZM
+          CGXLLH ----- CZHCY
+
+          LBQLYH ----- LQLJN
+          LBQLYH ----- LJFMY
+
+          LDQZXX ----- LTLTati
+          LDQZXX ----- LHJLTN
+          LDQZXX ----- LtL_fam
+
+          LZYZZX ----- LKLZLZ
+          LZYZZX ----- LKX_fam
+
+          LZYGJY ----- LRS_fam
+          LZYGJY ----- LRJ_fam
+
+          LDLYH ----- LDX_fam
+
+          LQXHL ----- LDS_fam
+          LQXHL ----- LDR_fam
+
+          CRMLWL ----- CYJHJQ
+          CRMLWL ----- CYJ_fam
+
+          XZYLJE ----- XJH_fam
+          XZYLJE ----- XJC_fam
+          XZYLJE ----- XJX_fam
+
+          CZZZM ----- ZYL_fam
+
+          CZHCY ----- CHS_fam
+          CZHCY ----- CaiYJ_fam
+
+          LQLJN ----- LyH_fam
 
 
-          CRMLWL --- CYJHJQ
-          CRMLWL --- CYJ_fam
+          LKLZLZ ----- ZYH_fam
+          LKLZLZ ----- ZXY_fam
 
-          XZYLJE --- XJH_fam
-          XZYLJE --- XJC_fam
-          XZYLJE --- XJX_fam
+          LRS_fam ----- LKR_fam
+
 
       </div>
+    </div>
+        </div>
     </div>
 </body>
 </html>
